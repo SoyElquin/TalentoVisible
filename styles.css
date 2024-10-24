@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Un gris claro más neutral */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco puro */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000000; /* Negro para el título principal */
+    margin-bottom: 15px; /* Espacio entre el título y el resto del contenido */
+}
+
+h2 {
+    color: #000000; /* Negro para los subtítulos */
+    border-bottom: 1px solid #cccccc; /* Línea sutil en gris claro */
+    padding-bottom: 5px;
+    margin-top: 20px; /* Espacio adicional antes de los subtítulos */
+    margin-bottom: 10px; /* Espacio debajo del subtítulo */
+}
+
+.summary {
+    background-color: #ffffff; /* Fondo blanco para la sección de resumen */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #ff6600; /* Borde naranja */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px; /* Espacio debajo de la lista */
+}
+
+/* Ajustar interlineado específico para el punto 7 */
+ul li {
+    margin-bottom: 10px; /* Mantener el espaciado entre elementos de la lista */
+    line-height: 1.8; /* Incrementar el interlineado dentro de cada elemento de la lista */
+}
+
+
+p {
+    line-height: 1.6;
+    color: #000000; /* Negro para el texto */
+    margin-bottom: 15px; /* Espacio debajo de cada párrafo */
+}
+
+a {
+    color: #ff6600; /* Naranja para los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para asegurar que sea responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Reducir el padding en dispositivos pequeños */
+    }
+
+    h1, h2 {
+        font-size: 1.2em; /* Ajustar tamaño de los títulos */
+    }
+
+    p, ul {
+        font-size: 0.9em; /* Ajustar tamaño de texto para párrafos y listas */
+    }
+}
