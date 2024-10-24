@@ -48,8 +48,8 @@ ul {
 
 /* Ajustar interlineado específico para el punto 7 */
 ul li {
-    margin-bottom: 10px; /* Mantener el espaciado entre elementos de la lista */
-    line-height: 1.8; /* Incrementar el interlineado dentro de cada elemento de la lista */
+    margin-bottom: 8px; /* Mantener el espaciado entre elementos de la lista */
+    line-height: 1.6; /* Incrementar el interlineado dentro de cada elemento de la lista */
 }
 
 
