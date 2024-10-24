@@ -44,17 +44,15 @@ ul {
     list-style-type: disc;
     padding-left: 20px;
     margin-bottom: 20px; /* Espacio debajo de la lista */
+    line-height: 1.5; /* Ajuste del interlineado general en las listas */
 }
 
-/* Ajustar interlineado específico para el punto 7 */
 ul li {
-    margin-bottom: 8px; /* Mantener el espaciado entre elementos de la lista */
-    line-height: 1.6; /* Incrementar el interlineado dentro de cada elemento de la lista */
+    margin-bottom: 8px; /* Espacio entre elementos de la lista */
 }
-
 
 p {
-    line-height: 1.6;
+    line-height: 1.5; /* Ajuste del interlineado general en los párrafos */
     color: #000000; /* Negro para el texto */
     margin-bottom: 15px; /* Espacio debajo de cada párrafo */
 }
